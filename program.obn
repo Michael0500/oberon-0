@@ -1,0 +1,23 @@
+MODULE TEST;
+IMPORT Out,In;
+VAR
+    a,b:INTEGER;
+    (*
+
+  This is comment!
+
+*)
+BEGIN
+
+    In.Int(a);
+
+
+    IF (a >= 5) THEN
+        b:=14;
+    ELSE
+        b:=23;
+    END;
+
+    Out.Int(b, 10);
+
+END TEST.
